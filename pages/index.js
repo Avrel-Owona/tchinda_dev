@@ -16,7 +16,7 @@ export default function Home() {
       <div className="text-white mt-10 lg:text-3xl flex items-center focus-visible:outline-none">
               <a href={'#'}><FaYoutube className={'ml-5 hover:text-gray-600 cursor-pointer'}/></a>
               <a href={'#'}><FaInstagram className={'ml-5 hover:text-gray-600 cursor-pointer'}/></a>
-              <a href={'#'}><FaFacebook className={'hover:text-gray-600 cursor-pointer'}/></a>
+              <a href={'#'}><FaFacebook className={'hover:text-gray-600 ml-5 cursor-pointer'}/></a>
               <a href={'#'}><FaTwitter className={'ml-7 hover:text-gray-600 cursor-pointer'}/></a>
           </div>
       </div>
