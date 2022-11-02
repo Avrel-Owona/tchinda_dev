@@ -1,9 +1,14 @@
+import Head from "next/head";
 import {FaFacebook, FaTwitter, FaYoutube} from "react-icons/fa";
 import {RiWhatsappFill} from 'react-icons/ri'
 
 export default function Home() {
   return (
-    <div className="w-screen flex-col h-screen relative overflow-hidden flex items-center justify-center">
+    <>
+    <Head>
+      <title>Tchinda | Videaste</title>
+    </Head>
+      <div className="w-screen flex-col h-screen relative overflow-hidden flex items-center justify-center">
       <img src="/jeremy-perkins-FsK54FVNRfM-unsplash.jpg" className="w-full h-full object-cover"/>
       <div className="absolute flex flex-col justify-center items-center">
       <h1 className="font-bold text-3xl sm:text-5xl lg:text-8xl uppercase text-gray-100">Coming Soon</h1>
@@ -16,5 +21,6 @@ export default function Home() {
           </div>
       </div>
     </div>
+    </>
   )
 }
