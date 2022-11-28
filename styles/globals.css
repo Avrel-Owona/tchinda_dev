@@ -9,7 +9,7 @@ body {
   scroll-behavior: smooth;
 }
 .text-stroke {
-  font-size: 90px;
+  font-size: 58px;
   font-weight: 400;
   letter-spacing: .04em;
   line-height: .8;
@@ -115,15 +115,17 @@ font-weight: 700;
   /* min-height: 200px !important; */
   background-position: center top !important;
 }
+
 .bgg-home {
   background-image: url('/IMG_9345 2.JPG');
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   /* height: auto !important; */
   /* min-height: 200px !important; */
   /* background-position: 0rem 27%; */
-  background-position: -23rem 27%;
+  /* background-position: -23rem 27%;*/
 }
+
 .about-stroke {
   -webkit-text-stroke-color: rgb(255 255 255 / 43%) !important
 }
@@ -162,4 +164,10 @@ font-weight: 700;
   .text-stroke {
     font-size: 200px;
 }
+}
+@media (min-width : 1024px) {
+  .bgg-home {
+    background-size: unset !important;
+    background-position: -23rem 27%;
+  }
 }
