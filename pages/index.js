@@ -21,7 +21,7 @@ export default function Home() {
 						</p>
 						<a className="font-light justify-center sm:justify-start text-base text-center uppercase cursor-pointer flex mt-10 lg:mt-12 text-gray-50 items-center">
 							About me <FiArrowRight className="ml-4" />
-						</a>
+						</a> 
 					</div>
 					<div className="flex w-2/6 gap-x-5 justify-center text-2xl mt-16"></div>
 				</div>
