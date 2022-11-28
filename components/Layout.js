@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
 				<meta property="og:image" content="/IMG_9345.JPG" />
 
 				{/* Twitter */}
-				<meta name="twitter:site" content="tournonslapagecameroun.org" />
+				<meta name="twitter:site" content="tchinda.org" />
 				<meta name="twitter:title" content="TCHINDA" />
 				<meta name="twitter:image:src" content="/IMG_9345.JPG" />
 				<meta name="twitter:card" content="summary_large_image" key="twcard" />
