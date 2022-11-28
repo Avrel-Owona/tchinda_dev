@@ -22,7 +22,7 @@ const Navbar = () => {
 	return (
 		<div className="relative flex items-center justify-between z-50 px-5 lg:px-10 py-10">
 			<Link href="/">
-				<FiShoppingBag className="text-gray-100 text-3xl lg:text-2xl" />
+				<FiShoppingBag className="text-gray-100 text-2xl lg:text-2xl" />
 			</Link>
 			{/* <nav>
                 <ol className="gap-x-16 text-base text-gray-100 hidden lg:flex">
@@ -44,14 +44,14 @@ const Navbar = () => {
 					onClick={() => setToggle(!toggle)}
 				>
 					<span
-						className={`w-16 lg:w-5/12 z-40 h-1 bg-white text-6xl text-white ${
+						className={`w-10 lg:w-5/12 z-40 h-1 bg-white text-6xl text-white ${
 							toggle
 								? "toggle-span-1 left-auto absolute"
 								: "translate-x-2 span-1"
 						}`}
 					></span>
 					<span
-						className={`w-16 lg:w-5/12 mt-1.5 h-1 bg-white text-6xl text-white ${
+						className={`w-10 lsg:w-5/12 mt-1.5 h-1 bg-white text-6xl text-white ${
 							toggle
 								? "toggle-span-2 left-auto absolute"
 								: "-translate-x-2 span-2"
